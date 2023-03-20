@@ -1,0 +1,55 @@
+:root{
+    --mapColor :#ECCEA7;
+    --details:#FA9E27 ;
+    --background-color: #E8E8E8;
+    --box-info-Color: #F5E7D3;
+    
+
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--background-color);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.map-container{
+    margin-top: 8%;
+}
+
+.info-map{
+    margin-top: 8%;
+}
+.boxInfos{
+    height: 44vh;
+    max-height: fit-content;
+    width: 19.5vw;
+    border: solid var(--details) 1px;
+    background-color: var(--box-info-Color);
+}
+
+path{
+    fill: var(--mapColor);
+    stroke: var(--background-color);
+    stroke-width:1px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+path:hover{
+    fill: var(--details);
+}
+/* ///////////////////////////////////////////// */
+
