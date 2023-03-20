@@ -31,14 +31,31 @@ body{
 
 .info-map{
     margin-top: 8%;
-}
-.boxInfos{
     height: 44vh;
     max-height: fit-content;
     width: 19.5vw;
     border: solid var(--details) 1px;
     background-color: var(--box-info-Color);
+ 
 }
+.boxInfos{
+    
+}
+
+.circle{
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50%;
+    background: var(--details);
+    border: solid var(--background-color) 3px;
+    margin: 1vh;
+    position: relative;
+    color: var(--background-color);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: var(--background-color);
+  }
 
 path{
     fill: var(--mapColor);
